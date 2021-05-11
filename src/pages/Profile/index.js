@@ -14,7 +14,6 @@ import {
 import ProfileData from "../../components/ProfileData";
 import RepoCard from "../../components/RepoCard";
 import RepoTab from "../../components/RepoTab";
-import Footer from "../../components/Footer";
 import RandomCalendar from "../../components/RandomCalendar";
 
 function Profile() {
@@ -112,7 +111,6 @@ function Profile() {
           <RandomCalendar />
         </RightSide>
       </Main>
-      <Footer />
     </Container>
   );
 }
